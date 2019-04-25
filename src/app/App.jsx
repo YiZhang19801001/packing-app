@@ -1,6 +1,7 @@
 import React from "react";
 import Routes from "./routes";
 import { history } from "./shared";
+
 export default () => {
   return (
     <>
