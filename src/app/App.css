@@ -112,4 +112,21 @@ form .button-container button:active {
   margin-top: 3rem;
 }
 
+.home-page {
+  display: grid;
+  grid-template-areas: "OrderList OrderDetail OrderDetail OrderDetail ControlPannel";
+}
+
+.order-detail {
+  grid-area: OrderDetail;
+}
+
+.order-list {
+  grid-area: OrderList;
+}
+
+.control-pannel {
+  grid-area: ControlPannel;
+}
+
 /*# sourceMappingURL=App.css.map */
