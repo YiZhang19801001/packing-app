@@ -29,7 +29,7 @@ form .form-field {
 form .form-field label {
   text-transform: capitalize;
   font-size: 0.8rem;
-  color: #211ef5;
+  color: #211ef56b;
   position: absolute;
   top: 1rem;
   left: 1rem;
@@ -38,7 +38,7 @@ form .form-field label {
 }
 form .form-field label.input-not-empty {
   top: 0;
-  left: 0;
+  color: #211ef5;
   font-size: 0.6rem;
 }
 form .form-field input {
@@ -47,14 +47,14 @@ form .form-field input {
   padding-left: 1rem;
   outline: none;
   border: none;
-  border-bottom: 2px solid #211ef5;
+  border-bottom: 1px solid #211ef5;
 }
 form .form-field input::placeholder {
   opacity: 0;
 }
 form .form-field input:focus ~ label {
   top: 0;
-  left: 0;
+  color: #211ef5;
   font-size: 0.6rem;
 }
 form .button-container {
@@ -66,14 +66,14 @@ form .button-container {
 form .button-container button {
   height: 2rem;
   width: 6rem;
-  border: 2px solid #211ef5;
+  border: 1px solid #211ef5;
   color: #211ef5;
   border-radius: 5px;
   font-weight: bold;
   text-transform: uppercase;
   outline: none;
-  box-shadow: 0 0 3px #d0d0d0;
-  transition: all 400ms ease-in-out;
+  box-shadow: 0 0 3px #c1c1c1;
+  transition: all 100ms ease-out;
   background-color: #fff;
 }
 form .button-container button:active {

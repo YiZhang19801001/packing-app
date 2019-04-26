@@ -16,7 +16,7 @@ form {
     label {
       text-transform: capitalize;
       font-size: 0.8rem;
-      color: color("main");
+      color: #211ef56b;
       position: absolute;
       top: 1rem;
       left: 1rem;
@@ -24,7 +24,9 @@ form {
       opacity: 1;
       &.input-not-empty {
         top: 0;
-        left: 0;
+        // left: 0;
+        color: color("main");
+
         font-size: 0.6rem;
       }
     }
@@ -34,14 +36,15 @@ form {
       padding-left: 1rem;
       outline: none;
       border: none;
-      border-bottom: 2px solid color("main");
+      border-bottom: 1px solid color("main");
       &::placeholder {
         opacity: 0;
       }
       &:focus {
         ~ label {
           top: 0;
-          left: 0;
+          // left: 0;
+          color: color("main");
           font-size: 0.6rem;
         }
       }
@@ -55,15 +58,14 @@ form {
     button {
       height: 2rem;
       width: 6rem;
-      border: 2px solid color("main");
+      border: 1px solid color("main");
       color: color("main");
       border-radius: 5px;
-
       font-weight: bold;
       text-transform: uppercase;
       outline: none;
-      box-shadow: 0 0 3px color("boxShadow");
-      transition: all 400ms ease-in-out;
+      box-shadow: 0 0 3px color("boxShadowDarker");
+      transition: all 100ms ease-out;
       background-color: color("bodyBackground");
       &:active {
         box-shadow: none;
