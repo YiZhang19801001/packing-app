@@ -1,5 +1,9 @@
 import React from "react";
-
+import { OrderList } from "./components";
 export default () => {
-  return <h1>Home Page</h1>;
+  return (
+    <div className="home-page">
+      <OrderList />
+    </div>
+  );
 };

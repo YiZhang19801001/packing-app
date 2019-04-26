@@ -1,3 +1,3 @@
 import history from "./history";
-
-export { history };
+import Form from "./components/Form";
+export { history, Form };
